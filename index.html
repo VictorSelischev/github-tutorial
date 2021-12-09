@@ -1,16 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
+    <!-- utf-8 - самая распространенная кодировка -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Git Rules!</title>
+    <meta name="description" content="Изучение основ HTML5 для новичков">
+    <title>Изучение тегов</title>
 <link rel="stylesheet" href="./css/style.css">
 
 </head>
 <body>
     
-    <h1>Это шапка сайта</h1>
+    <!-- Это комментарий. Его содержимое не отобразится на странице -->
+
+    <section>Секция</section>
+    <p>Абзац</p>
+    <a>Ссылка</a>
+    <button>Кнопка</button>
+
+
+    <a href="http://google.com" target="_blank" title="Поисковая система Google">Google.com</a>
+    <img src="https://picsum.photos/640/480" alt="Произвольная картинка от генератора" />
+    <input type="text" name="user_name" />
+    <button type="submit">...</button>
+    <p class="text">...</p>
+
+
+    <!-- Статъя с заголовком и абзацем -->
+    <article>
+        <h1>Кратко о парных тегах</h1>
+        <p>
+            Большинство тегов парные. Их контент заключён между открывающим и
+            закрывающим тегом.
+        </p>
+    </article>
+
+
+    <!-- Метаинформация о кодировке -->
+    <meta charset="utf-8" />
+    
+    <!-- Поле ввода -->
+    <input type="text" />
+    
+    <!-- Изображение -->
+    <img src="cat.jpg" alt="cool cat" />
+
+
+    <p>
+        <a href="squoosh.app">Squoosh</a> - сервис <em>оптимизации</em> изображений.
+    </p>
+    
+    <p>Преимущества</p>
+    <ul>
+        <li>Работает в браузере</li>
+        <li>Не грузит систему</li>
+        <li>Удобный интерфейс</li>
+    </ul>
 
 </body>
 </html>
+
+Все это не обрабатывается браузером
